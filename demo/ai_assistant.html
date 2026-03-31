@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Assistant | Cloud Counselage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { margin: 0; font-family: 'Segoe UI', Arial, sans-serif; background: #f5f7fb; display: flex; flex-direction: column; align-items: center; }
+        
+        .navbar { display: flex; align-items: center; justify-content: space-between; padding: 15px 40px; background: white; box-shadow: 0 2px 5px rgba(0,0,0,0.1); width: 100%; box-sizing: border-box; }
+        .nav-links a { margin-left: 25px; text-decoration: none; color: #333; font-size: 16px; font-weight: 500; }
+        
+        .container { margin-top: 50px; text-align: center; background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); width: 400px; }
+        h2 { color: #2c3e80; margin-bottom: 5px; }
+        p { color: #666; margin-bottom: 30px; font-size: 14px; }
+        
+        .btn-list { display: flex; flex-direction: column; gap: 15px; }
+        .platform-btn { display: flex; align-items: center; text-decoration: none; color: white; padding: 15px 20px; border-radius: 12px; font-size: 16px; font-weight: bold; transition: 0.3s; }
+        .platform-btn i { font-size: 20px; margin-right: 15px; }
+        
+        .whatsapp { background: #25D366; }
+        .telegram { background: #0088cc; }
+        .instagram { background: #E1306C; }
+        .messenger { background: #0084FF; }
+        
+        .platform-btn:hover { transform: scale(1.02); filter: brightness(1.1); box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <img src="logo.png" width="100">
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="ai_assistant.html" style="color:#2f5bd3;">Chat With US</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>IAC AI Assistant</h2>
+        <p>Choose your platform to start the conversation:</p>
+
+        <div class="btn-list">
+            <a href="https://wa.me/15551675820" class="platform-btn whatsapp" target="_blank">
+                <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+            <a href="https://t.me/IACOfficialBot" class="platform-btn telegram" target="_blank">
+                <i class="fab fa-telegram"></i> Chat on Telegram
+            </a>
+            <a href="https://ig.me/m/iacassistant" class="platform-btn instagram" target="_blank">
+                <i class="fab fa-instagram"></i> Chat on Instagram
+            </a>
+            <a href="https://m.me/61583710767772" class="platform-btn messenger" target="_blank">
+                <i class="fab fa-facebook-messenger"></i> Chat on Messenger
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
